@@ -7,8 +7,8 @@ import MobileMenu from '../components/mobileMenu'
 function Layout() {
     const [toggled, setToggled] = useState(false);
   return (
-    <div className="flex ">
-      <div className="hidden lg:block lg:w-3/12 ">
+    <div className="flex">
+      <div className="hidden lg:block">
         <Sidebar />
       </div>
       <div className="min-w-full md:min-w-[780px] bg-hero bg-no-repeat bg-cover lg:w-9/12 relative">

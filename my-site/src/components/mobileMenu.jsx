@@ -11,10 +11,9 @@ import ContactsIcon from "@mui/icons-material/Contacts";
 function MobileMenu() {
 
   return (
-  
      
      
-        <div className=" w-4/12  mt-20 bg-gray-900 h-96">
+        <div className=" w-3/12  mt-20 bg-gray-900 h-80 rounded-md">
           <Link className="flex items-center mb-4 text-gray-200  hover:text-blue-500">
             <div className=" ">
               <HomeIcon fontSize="large" className="" />

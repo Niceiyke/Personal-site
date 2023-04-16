@@ -4,7 +4,7 @@ import NavBarLinks from "../components/navBarLinks";
 
 function Sidebar() {
   return (
-    <div className="bg-black lg:min-h-screen">
+    <div className="bg-black lg:min-h-full">
       <NavbarHead />
       <NavBarLinks/>
    

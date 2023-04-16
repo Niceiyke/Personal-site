@@ -7,7 +7,7 @@ import avatar from "../assets/profile.png";
 
 function NavbarHead() {
   return (
-    <div className="hidden lg:block ">
+    <div className="hidden lg:block pl-8 lg:pt-20">
       <div className="">
         <Avatar
           src={avatar}
@@ -15,7 +15,7 @@ function NavbarHead() {
           alt="IOYOM"
           className="mx-auto border-8"
         />
-        <h1 className="pl-4 text-white text-center text-3xl font-black mt-2">
+        <h1 className=" text-white text-center text-3xl font-black mt-2">
           Ikechukwu David{" "}
         </h1>
       </div>
