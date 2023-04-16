@@ -1,4 +1,3 @@
-import Navbar from "./components/navBarHeader";
 import Layout from "./layout/Layout";
 
 function App() {

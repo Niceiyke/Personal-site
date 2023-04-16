@@ -8,7 +8,7 @@ import ContactsIcon from "@mui/icons-material/Contacts";
 
 function NavBarLinks() {
   return (
-    <div className="mt-4 pl-10">
+    <div className="mt-4 pl-10 md:flex  lg:block ">
       <Link className="flex items-center mb-4 text-gray-200  hover:text-blue-500">
         <div className="">
           <HomeIcon fontSize="large" />
@@ -46,7 +46,7 @@ function NavBarLinks() {
 
         <h1 className="pl-2 text-white"> Services </h1>
       </Link>
-      <Link className="flex items-center mb-4 text-gray-200 hover:text-blue-500 ">
+      <Link className="flex items-center  text-gray-200 hover:text-blue-500 ">
         <div className="">
           {" "}
           <ContactsIcon fontSize="large" />

@@ -1,11 +1,14 @@
+
 import NavbarHead from "../components/navBarHeader";
 import NavBarLinks from "../components/navBarLinks";
 
 function Sidebar() {
   return (
-    <div className="bg-[#040b14] pt-20 min-h-screen">
+    <div className="bg-black md:pt-4 lg:min-h-screen">
       <NavbarHead />
       <NavBarLinks/>
+   
+      
     </div>
   );
 }
