@@ -7,7 +7,7 @@ import avatar from "../assets/profile.png";
 
 function NavbarHead() {
   return (
-    <div className="hidden lg:block lg:mt-20 ">
+    <div className="hidden lg:block ">
       <div className="">
         <Avatar
           src={avatar}

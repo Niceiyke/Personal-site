@@ -2,7 +2,7 @@ import Layout from "./layout/Layout";
 
 function App() {
   return (
-    <div className="">
+    <div className="min-w-full max-h-screen">
       <Layout />
     </div>
   );
